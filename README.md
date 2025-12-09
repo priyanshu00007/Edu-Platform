@@ -1,16 +1,114 @@
-# React + Vite
+# Education Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive education platform built with React, Vite, and Tailwind CSS. This application provides a rich learning experience with smooth animations and responsive design.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Modern React 19 with Vite for fast development and builds
+- Beautiful UI with Tailwind CSS and custom animations
+- Smooth scrolling with Lenis
+- GSAP animations for engaging user interactions
+- Responsive design for all device sizes
+- ESLint and Prettier for code quality
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend Framework**: React 19
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **Animation**: GSAP, Framer Motion
+- **Icons**: Lucide React
+- **Linting**: ESLint
+- **Package Manager**: npm/pnpm/yarn
 
-## Expanding the ESLint configuration
+## 📦 Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Node.js (v18 or later)
+- npm (v9 or later) or pnpm or yarn
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd edu
+   ```
+
+2. **Install dependencies**
+   ```bash
+   # Using npm
+   npm install
+   
+   # or using pnpm
+   pnpm install
+   
+   # or using yarn
+   yarn install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   # or
+   pnpm dev
+   # or
+   yarn dev
+   ```
+
+4. **Open in your browser**
+   The application will be available at `http://localhost:5173`
+
+## 🏗️ Build for Production
+
+```bash
+# Build the application
+npm run build
+
+# Preview the production build
+npm run preview
+```
+
+## 🧪 Testing
+
+Run the linter:
+```bash
+npm run lint
+```
+
+## 📂 Project Structure
+
+```
+edu/
+├── public/            # Static files
+├── src/
+│   ├── components/    # Reusable UI components
+│   ├── pages/         # Page components
+│   ├── data/          # Mock data and configurations
+│   ├── styles/        # Global styles and Tailwind config
+│   ├── App.jsx        # Main App component
+│   └── main.jsx       # Application entry point
+├── .eslintrc.cjs      # ESLint configuration
+├── index.html         # Main HTML template
+├── package.json       # Project dependencies and scripts
+└── vite.config.js     # Vite configuration
+```
+
+## 🤝 Contributing
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- [Vite](https://vitejs.dev/) for the amazing build tool
+- [Tailwind CSS](https://tailwindcss.com/) for utility-first CSS
+- [GSAP](https://greensock.com/gsap/) for smooth animations
+- [Framer Motion](https://www.framer.com/motion/) for React animation library
+- [Lenis](https://github.com/studio-freight/lenis) for buttery smooth scrolling
