@@ -30,7 +30,7 @@ A modern, interactive education platform built with React, Vite, and Tailwind CS
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone (https://github.com/priyanshu00007/Edu-Platform.git)
    cd edu
    ```
 
